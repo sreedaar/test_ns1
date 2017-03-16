@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RavenPX">
+  <DataContextMoniker Name="/RavenPXDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1e4442ea-3b6b-4380-bba3-800b52b899c6" absoluteBounds="0.75, 1.25, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/RavenPXDataContext/XSetting" />
+      <nestedChildShapes>
+        <elementListCompartment Id="77717024-5f27-4b0e-979f-e13ade26f17d" absoluteBounds="0.765, 1.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="94706ebd-0269-4bd9-8ebf-2ae4019c364a" absoluteBounds="2.875, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/RavenPXDataContext/Branch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c0456f4-bd5c-4cf3-9a75-64e4ca554201" absoluteBounds="2.89, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

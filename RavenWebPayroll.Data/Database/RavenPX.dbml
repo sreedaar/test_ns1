@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="RavenPX" Class="RavenPXDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=localhost;Initial Catalog=RavenPX;Persist Security Info=True;User ID=sa" SettingsObjectName="RavenWebPayroll.Data.Properties.Settings" SettingsPropertyName="RavenPXConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.XSettings" Member="XSettings">
+    <Type Name="XSetting">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AppKey" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Value" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="ModuleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Branches" Member="Branches">
+    <Type Name="Branch">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LocationName" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PhoneNumber" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ZipCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

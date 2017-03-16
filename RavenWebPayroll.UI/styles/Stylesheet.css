@@ -1,0 +1,138 @@
+﻿body {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:black;
+	font-size:10px;
+}
+
+ html, body, form   
+        {   
+           height: 100%;   
+           margin: 0px;   
+           padding: 0px;   
+        }   
+
+a.button {
+    background: transparent url('bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+a.button span {
+    background: transparent url('bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+} 
+
+#headerwrapper 
+{
+	height:64px;
+	text-align:center;
+	
+}
+
+.fieldlabel
+{
+    font-weight: bold;
+    }
+
+#wrapper 
+{
+    width:958px;
+	margin:0 auto;
+	text-align:left;
+	padding:2px;
+	position:relative;
+	
+}
+
+#header {
+	background:darkgray;
+	height:65px;
+}
+
+.header {
+    background: #4b6c9e;
+    height: 100%;
+}
+
+#site {
+	background:black;
+}
+
+#leftwrapper 
+{
+    float:left;
+	width:170px;
+	padding:10px 10px 10px 10px;
+	line-height:20px;
+	position:relative;
+}
+
+#contentwrapper 
+{
+     position:relative;
+    padding:10px 10px 10px 10px;
+}
+
+#leftbar {
+ padding:5px 5px 5px 5px;	
+	background:darkgray;
+}
+
+#content {
+   text-align:center;
+ background:darkgray;
+ padding:5px 5px 5px 5px;
+}
+
+#OuterTableCellOverlay            
+{
+    background-color: white;          
+    -moz-opacity:0.85;                
+    z-index: 999;        
+    width: 100%;        
+    height: 100%;        
+    position: absolute;        
+    top: 0;        
+    left: 0;                            
+}        
+
+#InnerTableCellOverlay
+{
+    padding: 30px;
+    z-index: 998;
+    -moz-opacity: 1;
+    width: 400px;
+    position:relative ;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:200px;
+    text-align: center;
+    font-size: xx-large;
+    display:block;
+}
+
+.page
+{
+    width: 100%;
+    background-color: #fff;
+   height: 100%;
+   margin-top: -13px;
+}
+
+.header
+{
+    margin-top: 8px;
+}
+
+.title h2
+{
+    color: White;
+}
